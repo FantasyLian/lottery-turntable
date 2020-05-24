@@ -2,9 +2,9 @@
   	<div class="container">
     	<div class="lottery-turntable">
       		<div class="lottery-title"></div>
-      		<div class="turntable-main">
-        		<div class="turntable-pointer" @click="beginRotate()"></div>
-        		<div class="turntable-bg" :style="rotateStyle">
+      		<div class="lottery-main">
+        		<div class="lottery-pointer" @click="beginRotate()"></div>
+        		<div class="lottery-bg" :style="rotateStyle">
 					<div class="prize-list">
 						<div
 							class="prize-item"
@@ -214,16 +214,16 @@ export default {
 .lottery-title {
 	width: 100%;
 	height: 8.125rem;
-	background: url("../assets/img/lucky_title.png") no-repeat center top;
+	background: url("../assets/img/lottery_title.png") no-repeat center top;
 	background-size: 100%;
 }
-.turntable-main {
+.lottery-main {
 	margin: 0 auto;
 	position: relative;
 	width: 295px;
 	height: 295px;
 }
-.turntable-bg {
+.lottery-bg {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -234,7 +234,7 @@ export default {
 	background-size: 100%;
 	color: #fff;
 }
-.turntable-pointer {
+.lottery-pointer {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -245,7 +245,7 @@ export default {
 	background-size: 100%;
 	transform: translate3d(-50%, -50%, 0);
 }
-.turntable-bg div {
+.lottery-bg div {
   	text-align: center;
 }
 .prize-list {
@@ -287,7 +287,7 @@ export default {
 	position: absolute;
 	top: -3.4375rem;
 	left: 0;
-	background: url("../assets/img/luck_bg.png") no-repeat center top;
+	background: url("../assets/img/lottery_bg.png") no-repeat center top;
 	background-size: 100%;
 }
 .bg-p {
