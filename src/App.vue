@@ -17,9 +17,9 @@ export default {
 
 <style>
 html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
 }
 
 html,
@@ -83,13 +83,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
 }
 
 article,
@@ -104,98 +104,98 @@ main,
 nav,
 section,
 summary {
-    display: block
+	display: block
 }
 
 audio,
 canvas,
 progress,
 video {
-    display: inline-block;
-    vertical-align: baseline
+	display: inline-block;
+	vertical-align: baseline
 }
 
 audio:not([controls]) {
-    display: none;
-    height: 0
+	display: none;
+	height: 0
 }
 
 [hidden],
 template {
-    display: none
+	display: none
 }
 
 a {
-    background: transparent;
-    text-decoration: none;
+	background: transparent;
+	text-decoration: none;
 }
 
 a:active,
 a:hover {
-    outline: 0
+	outline: 0
 }
 
 abbr[title] {
-    border-bottom: 1px dotted
+	border-bottom: 1px dotted
 }
 
 b,
 strong {
-    font-weight: bold
+	font-weight: bold
 }
 
 dfn {
-    font-style: italic
+	font-style: italic
 }
 
 mark {
-    background: #ff0;
-    color: #000
+	background: #ff0;
+	color: #000
 }
 
 sub,
 sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
 }
 
 sup {
-    top: -0.5em
+	top: -0.5em
 }
 
 sub {
-    bottom: -0.25em
+	bottom: -0.25em
 }
 
 img {
-    border: 0
+	border: 0
 }
 
 svg:not(:root) {
-    overflow: hidden
+	overflow: hidden
 }
 
 figure {
-    margin: 1em 40px
+	margin: 1em 40px
 }
 
 hr {
-    box-sizing: content-box;
-    height: 0
+	box-sizing: content-box;
+	height: 0
 }
 
 pre {
-    overflow: auto
+	overflow: auto
 }
 
 code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
-    font-size: 1em
+	font-family: monospace, monospace;
+	font-size: 1em
 }
 
 button,
@@ -203,35 +203,35 @@ input,
 optgroup,
 select,
 textarea {
-    margin: 0
+	margin: 0
 }
 
 button {
-    overflow: visible;
-    outline: none;
-    border: none;
-    background: none;
-    list-style-type: none;
+	overflow: visible;
+	outline: none;
+	border: none;
+	background: none;
+	list-style-type: none;
 }
 
 input:focus,
 button:focus {
-    outline: 0;
+	outline: 0;
 }
 
 input:active,
 button:active {
-    outline: 0;
+	outline: 0;
 }
 
 input:visited,
 button:visited {
-    outline: 0
+	outline: 0
 }
 
 
 textarea {
-    overflow: auto
+	overflow: auto
 }
 
 
@@ -242,40 +242,40 @@ li,
 dl,
 dt,
 dd {
-    list-style: none;
+	list-style: none;
 }
 
 
 
 .float-left {
-    float: left
+	float: left
 }
 
 .float-right {
-    float: right
+	float: right
 }
 
 .float-clear:after {
-    content: "";
-    display: block;
-    clear: both
+	content: "";
+	display: block;
+	clear: both
 }
 
 html {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    margin: 0 auto;
-    max-width: 750px;
-    min-width: 320px;
-    font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
-    font-size: 16px;
-    height: 100%;
-    background: #fff;
+	margin: 0 auto;
+	max-width: 750px;
+	min-width: 320px;
+	font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+	font-size: 16px;
+	height: 100%;
+	background: #fff;
 }
 
 div {
-    box-sizing: border-box
+	box-sizing: border-box
 }
 </style>
