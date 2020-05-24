@@ -1,7 +1,7 @@
 {
-	"name": "lottery-turntable",
+	"name": "lottery-truntable",
 	"version": "1.0.0",
-	"description": " a vue.js lottery-turntable support pc and mobile",
+	"description": " a vue.js lottery-truntable support pc and mobile",
 	"author": "Mr.cat",
 	"private": true,
 	"scripts": {
