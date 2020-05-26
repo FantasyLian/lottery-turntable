@@ -1,0 +1,220 @@
+.container {
+    width: 100%;
+}
+.lottery-turntable {
+  width: 100%;
+  background: rgb(252, 207, 133) url("../assets/img/color_pillar.png") no-repeat
+      center bottom;
+  background-size: 100%;
+  padding-top: 20px;
+}
+.lottery-title {
+  width: 100%;
+  height: 8.125rem;
+  background: url("../assets/img/lottery_title.png") no-repeat center top;
+  background-size: 100%;
+}
+.lottery-main {
+  margin: 0 auto;
+  position: relative;
+  width: 295px;
+  height: 295px;
+}
+.lottery-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/img/draw_turntable.png") no-repeat center top;
+  background-size: 100%;
+  color: #fff;
+}
+.lottery-pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 85px;
+  height: 85px;
+  background: url("../assets/img/draw_btn.png") no-repeat center top;
+  background-size: 100%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.lottery-bg div {
+    text-align: center;
+}
+.prize-list {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.prize-list .prize-item {
+  position: absolute;
+  width: 95px;
+  height: 150px;
+  top: 0;
+  left: 50%;
+  margin-left: -47.5px;
+  transform-origin: 50% 100%;
+}
+
+.prize-pic img {
+  width: 4.0625rem;
+  height: 2.5rem;
+  margin-top: 1.5625rem;
+}
+.prize-count {
+    font-size: 0.875rem;
+}
+.prize-type {
+    font-size: 0.75rem;
+}
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 14.25rem;
+  background: rgb(243, 109, 86);
+  padding-bottom: 1.6875rem;
+}
+.main-bg {
+  width: 100%;
+  height: 6.5625rem;
+  position: absolute;
+  top: -3.4375rem;
+  left: 0;
+  background: url("../assets/img/lottery_bg.png") no-repeat center top;
+  background-size: 100%;
+}
+.bg-p {
+  width: 100%;
+  height: 2.95rem;
+  background: rgb(252, 207, 133);
+}
+.content {
+  position: absolute;
+  top: 0.175rem;
+  left: 0;
+  background: rgb(243, 109, 86);
+  width: 100%;
+  height: 5.1875rem;
+  font-size: 1.125rem;
+  color: #ffeb39;
+  padding-left: 6.75rem;
+}
+.content div {
+    text-align: left;
+}
+.tip {
+  position: relative;
+  margin: 2.5rem auto 0;
+  width: 17.5rem;
+  border: 1px solid #fbc27f;
+}
+.tip-title {
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1rem;
+  color: #fccc6e;
+  background: rgb(243, 109, 86);
+  padding: 0.3125rem 0.625rem;
+}
+.tip-content {
+  padding: 1.5625rem 0.625rem;
+  font-size: 0.875rem;
+  color: #fff8c5;
+  line-height: 1.5;
+}
+.toast-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+}
+.toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 20000;
+  transform: translate(-50%, -50%);
+  width: 15.4375rem;
+  background: #fff;
+  border-radius: 0.3125rem;
+  padding: 0.3125rem;
+  background-color: rgb(252, 244, 224);
+}
+.toast-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px dotted #fccc6e;
+}
+.toast-picture {
+  position: absolute;
+  top: -6.5rem;
+  left: -1.5rem;
+  width: 18.75rem;
+  height: 8.5625rem;
+}
+.toast-pictrue-change {
+  position: absolute;
+  top: -1.5rem;
+  left: -1.375rem;
+  width: 17.5rem;
+  height: 3.125rem;
+}
+.toast-title {
+  padding: 2.8125rem 0;
+  font-size: 18px;
+  color: #fc7939;
+  text-align: center;
+}
+.toast-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.9375rem;
+}
+.toast-btn div {
+  background-image: -moz-linear-gradient(
+      -18deg,
+      rgb(242, 148, 85) 0%,
+      rgb(252, 124, 88) 51%,
+      rgb(252, 124, 88) 99%
+  );
+
+    background-image: -ms-linear-gradient(
+      -18deg,
+      rgb(242, 148, 85) 0%,
+      rgb(252, 124, 88) 51%,
+      rgb(252, 124, 88) 99%
+  );
+  background-image: -webkit-linear-gradient(
+      -18deg,
+      rgb(242, 148, 85) 0%,
+      rgb(252, 124, 88) 51%,
+      rgb(252, 124, 88) 99%
+  );
+  box-shadow: 0px 4px 0px 0px rgba(174, 34, 5, 0.7);
+  width: 4.6875rem;
+  height: 1.875rem;
+  border-radius: 1.875rem;
+  text-align: center;
+  line-height: 1.875rem;
+  color: #fff;
+}
+.close {
+  position: absolute;
+  top: -0.9375rem;
+  right: -0.9375rem;
+  width: 2rem;
+  height: 2rem;
+  background: url("../assets/img/close_store.png") no-repeat center top;
+  background-size: 100%;
+}
