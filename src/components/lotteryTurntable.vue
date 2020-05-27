@@ -72,7 +72,7 @@ export default {
 			rotateAngle: 0, // 旋转角度
 			index: 0,
 			prize: null
-		};
+		}
 	},
 	created() {
 		// 初始化一些值
