@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import { prizeList } from "./config"
+import { prizeList } from "../assets/js/config"
 const CIRCLE_ANGLE = 360
 
 const config = {
@@ -200,5 +200,5 @@ export default {
 </script>
 
 <style lang="css">
-@import "style.css";
+@import "../assets/styles/style.css";
 </style>

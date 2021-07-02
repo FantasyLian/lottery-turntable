@@ -10,7 +10,7 @@
 }
 .lottery-turntable {
 	width: 100%;
-	background: rgb(252, 207, 133) url("../assets/img/color_pillar.png") no-repeat
+	background: rgb(252, 207, 133) url("../img/color_pillar.png") no-repeat
 			center bottom;
 	background-size: 100%;
 	padding-top: 20px;
@@ -18,7 +18,7 @@
 .lottery-title {
 	width: 100%;
 	height: 8.125rem;
-	background: url("../assets/img/lottery_title.png") no-repeat center top;
+	background: url("../img/lottery_title.png") no-repeat center top;
 	background-size: 100%;
 }
 .lottery-main {
@@ -34,7 +34,7 @@
 	z-index: 1;
 	width: 100%;
 	height: 100%;
-	background: url("../assets/img/draw_turntable.png") no-repeat center top;
+	background: url("../img/draw_turntable.png") no-repeat center top;
 	background-size: 100%;
 	color: #fff;
 }
@@ -45,7 +45,7 @@
 	z-index: 2;
 	width: 85px;
 	height: 85px;
-	background: url("../assets/img/draw_btn.png") no-repeat center top;
+	background: url("../img/draw_btn.png") no-repeat center top;
 	background-size: 100%;
 	transform: translate3d(-50%, -50%, 0);
 }
@@ -91,7 +91,7 @@
 	position: absolute;
 	top: -3.4375rem;
 	left: 0;
-	background: url("../assets/img/lottery_bg.png") no-repeat center top;
+	background: url("../img/lottery_bg.png") no-repeat center top;
 	background-size: 100%;
 }
 .bg-p {
@@ -221,6 +221,6 @@
 	right: -0.9375rem;
 	width: 2rem;
 	height: 2rem;
-	background: url("../assets/img/close_store.png") no-repeat center top;
+	background: url("../img/close_store.png") no-repeat center top;
 	background-size: 100%;
 }
